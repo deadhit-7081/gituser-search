@@ -16,7 +16,7 @@ function Check()
         axios.get(`https://api.github.com/users/${name}`,
         {
             headers:{
-                authorization: "token  c3e105caabebb33e64b2095596783d1ea81f5c58"
+                authorization: "token  #"
             }
         })
         .then(res =>{
